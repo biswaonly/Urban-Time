@@ -1,0 +1,36 @@
+.capitalize{
+	text-transform: capitalize
+}
+.vendor{
+	width: 100%;
+	background-color: aquamarine;
+}
+
+/* VENDOR HEADER */
+.vendor_header{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	background-color: cadetblue;
+}
+.vendor_header_opt{
+	cursor: pointer;
+}
+.vendor_header_opt:hover{
+	background-color: darkcyan;
+}
+.vendor_header_opt p{
+	padding: 0 30px;
+}
+
+.add_new{
+	width: 100%;
+}
+
+
+
+
+
+.all_items_list{
+	background-color: palegoldenrod;
+}

@@ -1,0 +1,127 @@
+.customer{
+	width: calc(100vw - 200px);
+	background-color: antiquewhite;
+}
+.hide{
+	display: none;
+}
+.customer_header{
+	display: flex;
+	justify-content: space-between;
+	background-color: aquamarine;
+}
+.customer_discard{
+	margin: auto 20px;
+}
+.customer_discard div{
+	padding: 8px;
+	background-color: red;
+}
+.customer_discard div h4{
+	margin: 0;
+}
+.customer_details{
+	margin: auto 0;
+}
+.customer_total{
+	margin: auto 20px;
+	background-color: yellow;
+}
+.customer_item_co{
+	height: 40px;
+	display: flex;
+	justify-content: space-around;
+	background-color: thistle;
+}
+.customer_item_sort_by{
+	margin: auto 0;
+}
+.customer_item_search_bar{
+	margin: auto 0;
+}
+
+tbody:nth-child(even) {
+  background-color: #dddddd;
+}
+.search_item_list{
+	max-height: 400px;
+	overflow: hidden;
+	height: 100%;
+	width: 400px;
+	background-color: slategray;
+}
+.search_result{
+	display: flex;
+	border: 1px solid slategray;
+	cursor: pointer;
+}
+.search_result:focus{
+	border: 1px solid lightblue;
+	background-color: plum;
+}
+.search_result_active{
+	display: flex;
+	cursor: pointer;
+	border: 1px solid lightblue;
+	background-color: plum;
+}
+.search_result:hover{
+	border: 1px solid lightblue;
+}
+.search_result_brand{
+	width: 100px;
+	height: 20px;
+	overflow: hidden;
+	color: darkgray;
+	/* display: inline-block; */
+}
+.search_result_brand p{
+	margin: 0;
+	/* display: inline-block; */
+}
+.search_result_name{
+
+}
+.search_result_name p{
+	margin: 0;
+}
+
+.ccc:focus {
+	background-color: blue;
+}
+.submit_btn{
+	height: 40px;
+	widows: 80px;
+	background-color: red;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+}
+.submit_btn:active{
+	border: 2px solid blue;
+}
+
+
+.customer_form{
+	width: 100%;
+	/* width: calc(100vw - 200px); */
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.customer_form_body{
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	border-radius: 4px;
+	position: relative;
+}
+.customer_form_close{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
